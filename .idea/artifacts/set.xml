@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="set">
+    <output-path>$PROJECT_DIR$/out/artifacts/set</output-path>
+    <root id="root">
+      <element id="archive" name="set.jar">
+        <element id="module-output" name="set" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,46 @@
+# i18n.properties
+# ============================================================
+#
+#@author: victor
+
+# English version
+
+#colours
+red = red
+green = green
+purple = purple
+
+#fillings
+filled = filled
+empty = empty
+striped = striped
+
+#shapes
+oval = oval
+tilde = tilde
+square = square
+
+#startscreen
+start = Start
+numberOfProperties = Number of properties:
+timeRace = Player vs Time
+againstComputer = Player vs Computer
+
+#card
+amount = amount
+colour = colour
+shape = shape
+filling = filling
+
+#gamescreen
+play = Play
+screenNotFound = couldn't find screen
+cardsLeft = amount of cards left:
+back = go back
+newGame = new game
+showSet = show set
+set = set
+notThreeCards = you didn't select 3 cards
+correct = correct
+wrong = this isn't a set
+endGame = congratulations, your time:

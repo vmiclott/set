@@ -1,0 +1,126 @@
+VBox {
+    -fx-background-color:#FFFFFF;
+    -fx-spacing: 10;
+    -fx-border-color:black;
+    -fx-border-width:2;
+    -fx-border-radius:5;
+}
+
+
+HBox {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+.scroll-pane {
+    -fx-base: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-background-color: transparent;
+}
+
+
+.scroll-bar {
+    -fx-base: #222222;
+}
+
+.scroll-bar .thumb{
+    -fx-base: #444444;
+}
+
+#startScherm {
+    -fx-background-image: url(backgrounds/background1.gif);
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+}
+
+
+
+#scherm1, #scherm {
+    -fx-background-image: url(backgrounds/background2.jpg);
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+}
+
+
+.button {
+    -fx-background-color:
+        linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#b9b9b9 0%, #c2c2c2 20%, #afafaf 80%, #c8c8c8 100%),
+        linear-gradient(#f5f5f5 0%, #dbdbdb 50%, #cacaca 51%, #d7d7d7 100%);
+    -fx-background-insets: 0,1,4,5;
+    -fx-background-radius: 9,8,5,4;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+.button:hover {
+    -fx-background-color: #333333;
+    -fx-background-insets: 0,1,4,5;
+    -fx-background-radius: 9,8,5,4;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+.text-field {
+    -fx-background-color: #CCCCCC;
+    -fx-background-insets: 0,1,4,5;
+    -fx-background-radius: 9,8,5,4;
+    -fx-font-size: 13px;
+    -fx-font-family: "Helvetica";
+    -fx-font-weight: bold;
+    -fx-text-fill: #111111;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+.label {
+    -fx-font-size: 13px;
+    -fx-font-family: "Helvetica";
+    -fx-font-weight: bold;
+}
+
+.table-view {
+    -fx-base: #333333;
+    -fx-control-inner-background: transparent;
+    -fx-background-color: transparent;
+    -fx-table-column-border-color: transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-table-header-background-color: transparent;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+.table-view .column-header .label {
+    -fx-background-color:transparent;
+    -fx-font-size: 20px;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: #B20000;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:selected {
+    -fx-border-color: transparent;
+    -fx-font-size: 13px;
+    -fx-font-family: "Helvetica";
+    -fx-background-color: #333333;
+}
+
+
+GridPane {
+    -fx-background-radius: 5.0;
+    -fx-background-insets: 0.0 5.0 0.0 5.0;
+    -fx-padding: 10;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
